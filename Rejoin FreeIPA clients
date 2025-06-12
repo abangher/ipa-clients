@@ -1,0 +1,5 @@
+## Rejoin FreeIPA clients
+ipa-client-install --hostname=`hostname -f` --mkhomedir --server=freeipa-dc.digisign.id --domain digisign.id --realm FREEIPA-DC.DIGISIGN.ID --force-join
+ipa-client-install --hostname=`hostname -f` --mkhomedir --server=freeipa-office.digisign.id --domain digisign.id --realm FREEIPA-OFFICE.DIGISIGN.ID --force-join
+ipa-client-install --hostname=`hostname -f` --mkhomedir --server=ipa-drc.digisign.id --domain digisign.id --realm IPA-DRC.DIGISIGN.ID --force-join
+ipa-client-install --hostname=`hostname -f` --mkhomedir --server=freeipa-dev.digisign.id --domain digisign.id --realm FREEIPA-DEV.DIGISIGN.ID --force-join
